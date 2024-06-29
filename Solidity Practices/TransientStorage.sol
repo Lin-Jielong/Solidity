@@ -1,4 +1,7 @@
+// SPDX-License-Identifier: MIT
 pragma solidity ^0.8.18;
+
+// Data stored in transient storage is cleared out after transaction.
 
 // Make sure EVM version and VM set to Cancun
 

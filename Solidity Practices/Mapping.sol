@@ -1,6 +1,14 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.18;
 
+// Maps are created with the syntax mapping(keyType => valueType).
+
+// The keyType can be any built-in value type, bytes, string, or any contract.
+
+// valueType can be any type including another mapping or an array.
+
+// Mappings are not iterable.
+
 contract Mapping {
     // Mapping from address to uint
     mapping(address => uint256) public myMap;

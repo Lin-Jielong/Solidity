@@ -1,6 +1,10 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.18;
 
+// Don't write loops that are unbounded as this can hit the gas limit and cause your transaction to fail.
+
+// For the reason above, while and do while loops are not recommended.
+
 contract Loop {
     function loop() public {
         // for loop

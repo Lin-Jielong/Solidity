@@ -1,6 +1,9 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.18;
 
+// To write or update a state variable, we need to send a transaction.
+// On the other hand, to read a state variable, for free, without any transaction fee.
+
 contract SimpleStorage {
     // State variable to store a number
     uint256 public num;
